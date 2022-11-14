@@ -929,6 +929,20 @@ in a different style:
 
 The following roles generate external links:
 
+.. describe:: cpy-file
+
+   A reference to a file in the CPython repository. For example, to link to
+   :cpy-file:`Lib/os.py`::
+
+      :cpy-file:`Lib/os.py`
+
+.. describe:: gh-label
+
+   A reference to a label on the CPython issue tracker. For example, to link to the
+   :gh-label:`easy` label::
+
+      :gh-label:`easy`
+
 .. describe:: pep
 
    A reference to a Python Enhancement Proposal.  This generates appropriate
