@@ -147,10 +147,7 @@ notfound_urls_prefix = "/"
 # sphinxext-opengraph config
 ogp_site_url = "https://devguide.python.org/"
 ogp_site_name = "Python Developer's Guide"
-ogp_image = "_static/og-image-200x200.png"
 ogp_custom_meta_tags = [
-    '<meta property="og:image:width" content="200">',
-    '<meta property="og:image:height" content="200">',
     '<meta name="theme-color" content="#3776ab">',
 ]
 
