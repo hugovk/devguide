@@ -145,7 +145,7 @@ todo_include_todos = True
 notfound_urls_prefix = "/"
 
 # sphinxext-opengraph config
-ogp_site_url = "https://devguide.python.org/"
+ogp_site_url = "https://hugovk-devguide.readthedocs.io/en/ogp_social_cards/"
 ogp_site_name = "Python Developer's Guide"
 ogp_custom_meta_tags = [
     '<meta name="theme-color" content="#3776ab">',
