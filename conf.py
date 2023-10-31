@@ -6,8 +6,8 @@ import time
 sys.path.insert(0, os.path.abspath(".") + "/_extensions")
 
 extensions = [
-    'custom_roles',
     'notfound.extension',
+    'sphinx.ext.extlinks',
     'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
     'sphinx_copybutton',
@@ -153,6 +153,16 @@ rediraffe_redirects = {
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3', None),
+}
+
+# sphinx.ext.extlinks
+# This config is a dictionary of external sites,
+# mapping unique short aliases to a base URL and a prefix.
+# https://www.sphinx-doc.org/en/master/usage/extensions/extlinks.html
+_repo = "https://github.com/python/cpython/"
+extlinks = {
+    "cpy-file": (f"{_repo}/blob/main/%s", "%s"),
+    "gh-label": (f"{_repo}/labels/%s", "%s"),
 }
 
 todo_include_todos = True
