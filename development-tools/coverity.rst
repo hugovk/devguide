@@ -109,7 +109,7 @@ Positive issues
 
 You should always create an issue unless it's really a trivial case. Please
 add the full url to the ticket under *Ext. Reference* and add the CID
-(Coverity ID) to both the ticket and the checkin message. It makes it much
+(Coverity ID) to both the ticket and the commit message. It makes it much
 easier to understand the relation between tickets, fixes and Coverity issues.
 
 

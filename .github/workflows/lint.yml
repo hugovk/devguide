@@ -3,7 +3,7 @@ name: Lint
 on: [push, pull_request, workflow_dispatch]
 
 jobs:
-  lint:
+  pre-commit:
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
@@ -13,3 +13,12 @@ jobs:
         with:
           python-version: "3.x"
       - uses: pre-commit/action@v3.0.0
+
+  spelling:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check spelling
+        uses: codespell-project/actions-codespell@v2

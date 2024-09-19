@@ -1,0 +1,5 @@
+[codespell]
+skip = ./_build,./.git,./venv,core-developers/developers.csv,include/release-cycle.json
+ignore-words = .codespell/ignore-words.txt
+# exclude-file = .codespell/exclude-file.txt
+# uri-ignore-words-list = daa,ist,searchin,theses

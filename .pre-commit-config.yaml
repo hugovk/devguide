@@ -18,6 +18,8 @@ repos:
       - id: check-yaml
       - id: debug-statements
       - id: end-of-file-fixer
+      - id: file-contents-sorter
+        files: ^\.codespell/ignore-words\.txt$
       - id: trailing-whitespace
 
   - repo: https://github.com/sphinx-contrib/sphinx-lint
@@ -25,6 +27,11 @@ repos:
     hooks:
       - id: sphinx-lint
         args: [--enable=default-role]
+
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.3.0
+    hooks:
+      - id: codespell
 
   - repo: meta
     hooks:
