@@ -14,6 +14,8 @@ Python Developer's Guide
 
 .. highlight:: bash
 
+hi!
+
 This guide is a comprehensive resource for :ref:`contributing <contributing>`
 to Python_ -- for both new and experienced contributors. It is
 :ref:`maintained <devguide>` by the same
