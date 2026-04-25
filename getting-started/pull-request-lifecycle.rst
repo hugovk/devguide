@@ -728,7 +728,7 @@ Crediting
 =========
 
 Non-trivial contributions are often credited in What's New in Python
-and a contributions's news entry as well.
+and a contribution's news entry as well.
 
 .. _issue tracker: https://github.com/python/cpython/issues
 .. _Core Development Discourse category: https://discuss.python.org/c/core-dev/23
