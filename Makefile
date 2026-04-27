@@ -16,7 +16,7 @@ BUILDDIR     = _build
 BUILDER      = html
 JOBS         = auto
 SPHINXLINT   = $(VENVDIR)/bin/sphinx-lint
-REQUIREMENTS = requirements.txt
+REQUIREMENTS = pylock.toml
 
 # Internal variables.
 _ALL_SPHINX_OPTS = --jobs $(JOBS) $(SPHINXOPTS)
